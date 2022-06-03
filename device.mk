@@ -18,9 +18,7 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     vendor/qcom/opensource/commonsys-intf/display \
     vendor/qcom/opensource/wfd-commonsys
-
-# Setup dalvik vm configs
-$(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
+    vendor/nxp/opensource/pn5xx
 
 # Vendor properties
 -include $(LOCAL_PATH)/vendor_props.mk
